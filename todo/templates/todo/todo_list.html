@@ -15,7 +15,12 @@
             {% else %}
                 <td>{{item.name}}</td>
             {% endif %}
-         </tr>  
+         </tr> 
+         <td>
+         <a href="/edit/{{ item.id }}">
+            <button>Edit</button>
+         </a>
+         </td>
         {% empty%}
         <tr><td>There is no items to do</td></tr>
         {% endfor %}
