@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'ezwu*lv+zvt9g)_drhcmccq+dcgb7r&x3l%4m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME'), 'localhost']
+ALLOWED_HOSTS = ['django-todo-app1.herokuapp.com', 'localhost']
 
 
 # Application definition
